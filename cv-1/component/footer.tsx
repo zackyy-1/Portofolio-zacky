@@ -15,13 +15,13 @@ export default function Footer() {
             </div>
             <div className="flex space-x-6">
               {['Instagram', 'LinkedIn', 'GitHub', 'Twitter'].map((social, index) => (
-                <a 
+                <Link 
                   key={index} 
                   href="#" 
                   className="text-gray-400 hover:text-white transition duration-300"
                 >
                   {social}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
